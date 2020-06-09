@@ -1,0 +1,88 @@
+// Variables
+
+$mar: #d35266;
+$dark: #383838;
+$lite: #888;
+$bg: #f6f6f6;
+$w: #fff;
+
+* a {
+  text-decoration: none;
+}
+
+* li {
+  list-style: none;
+}
+
+body {
+  background-color: $bg;
+  box-sizing: border-box;
+  color: $lite;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: $dark;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+
+  .nav-bar {
+    li {
+      display: inline-flex;
+      margin-right: 20px;
+      vertical-align: middle;
+    }
+
+    a {
+      color: $lite;
+      font-size: 16px;
+      text-transform: uppercase;
+
+      i {
+        margin: 0 10px;
+      }
+    }
+
+    button {
+      background-color: $mar;
+      border: 0;
+      border-radius: 3px;
+      color: $w;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 15px;
+      text-transform: uppercase;
+    }
+  }
+
+  .right {
+    margin-right: 20px;
+    padding-top: 15px;
+
+    a {
+      color: $lite;
+      font-size: 18px;
+      text-transform: uppercase;
+
+      i {
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+// .nav-end button {
+//   color: #fff;
+//   background: linear-gradient(to right, #31d35c, #2bb7da);
+//   display: inline-block;
+//   border-radius: 30px;
+//   cursor: pointer;
+//   font-size: 0.89rem;
+//   font-weight: 600;
+//   padding: 14px 33px;
+//   text-decoration: none;
+//   border: none;
+// }
