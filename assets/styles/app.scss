@@ -97,3 +97,49 @@ nav {
     }
   }
 }
+
+.hero {
+  align-items: center;
+  background-color: $mar;
+  color: $w;
+  display: flex;
+  flex-direction: column;
+  // height: 40vh;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  form {
+    select {
+      background-color: $w;
+      border: 0;
+      padding: 17px 10px;
+      width: 25%;
+    }
+
+    input {
+      border: 0;
+      padding: 15px 10px;
+      width: 25%;
+
+      &[type="submit"] {
+        background-color: $dark;
+        color: $w;
+        margin-left: 10px;
+        width: 15%;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
