@@ -19,70 +19,81 @@ body {
   box-sizing: border-box;
   color: $lite;
   font-family: Helvetica, sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
 nav {
   background-color: $dark;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 15px;
+  overflow: hidden;
+  width: 100%;
 
-  .nav-bar {
-    li {
-      display: inline-flex;
-      margin-right: 20px;
-      vertical-align: middle;
+  .my-left {
+    button {
+      display: none;
     }
 
     a {
       color: $lite;
-      font-size: 16px;
-      text-transform: uppercase;
-
-      i {
-        margin: 0 10px;
-      }
-    }
-
-    button {
-      background-color: $mar;
-      border: 0;
-      border-radius: 3px;
-      color: $w;
-      font-size: 16px;
-      font-weight: bold;
-      padding: 15px;
-      text-transform: uppercase;
+      line-height: 3em;
     }
   }
 
   .right {
-    margin-right: 20px;
-    padding-top: 15px;
+    display: none;
+  }
 
-    a {
-      color: $lite;
-      font-size: 18px;
-      text-transform: uppercase;
+  @media (min-width: 376px) {
+    .my-left {
+      display: flex;
+      justify-content: space-evenly;
 
-      i {
-        margin: 0 10px;
+      button {
+        background-color: $mar;
+        border: 0;
+        border-radius: 3px;
+        color: $w;
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2em;
+        margin-top: 10px;
+        text-transform: uppercase;
+      }
+    }
+
+    .right {
+      display: none;
+    }
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    .my-left {
+      span {
+        margin-right: 20px;
+      }
+    }
+
+    .right {
+      display: inline-flex;
+      margin-right: 20px;
+      padding-top: 15px;
+
+      a {
+        color: $lite;
+        font-size: 18px;
+        line-height: 1em;
+        text-transform: uppercase;
+
+        i {
+          margin: 0 10px;
+        }
       }
     }
   }
 }
-
-// .nav-end button {
-//   color: #fff;
-//   background: linear-gradient(to right, #31d35c, #2bb7da);
-//   display: inline-block;
-//   border-radius: 30px;
-//   cursor: pointer;
-//   font-size: 0.89rem;
-//   font-weight: 600;
-//   padding: 14px 33px;
-//   text-decoration: none;
-//   border: none;
-// }
