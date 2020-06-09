@@ -15,7 +15,7 @@ $w: #fff;
 }
 
 body {
-  background-color: $bg;
+  background-color: $w;
   box-sizing: border-box;
   color: $lite;
   font-family: Helvetica, sans-serif;
@@ -141,5 +141,27 @@ nav {
   }
   @media (max-width: 767px) {
     display: none;
+  }
+}
+
+.ads {
+  padding: 30px 0;
+  background-color: $w;
+
+  h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  img {
+    padding: 20px;
+    width: 200px;
+  }
+
+  span {
+    background-color: $mar;
+    color: $w;
+    margin-right: 1px;
+    padding: 15px;
   }
 }
