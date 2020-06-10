@@ -270,6 +270,7 @@ footer {
 .searchbg {
   background-color: $bg;
 }
+
 .search {
   display: flex;
   justify-content: space-between;
@@ -295,15 +296,10 @@ footer {
   }
 
   .sc2 {
-    width: 70%;
-
     border-left: 1px solid $lite;
     border-right: 1px solid $lite;
     padding: 20px;
-    h2 {
-      font-size: 22px;
-      font-weight: bold;
-    }
+    width: 70%;
 
     img {
       padding: 20px;
@@ -317,31 +313,54 @@ footer {
       padding: 15px;
     }
   }
+
   .card {
     background-color: $bg;
+
     &:hover {
       background-color: $w;
     }
+
     .cartop {
       display: flex;
       justify-content: space-between;
     }
+
     .first {
       color: $mar;
     }
+
     .last {
       display: flex;
       justify-content: space-between;
-      button {
+
+      .pd {
         background-color: $mar;
-        border: none;
+        border: 0;
         border-radius: 3px;
         color: $w;
+
         &:hover {
-          color: $mar;
           background-color: $w;
+          color: $mar;
         }
       }
+    }
+  }
+
+  .bts {
+    display: flex;
+    justify-content: center;
+
+    button {
+      background-color: $w;
+      border: 0;
+      margin: 5px;
+    }
+
+    .bt1 {
+      background-color: $mar;
+      color: $w;
     }
   }
 }
