@@ -139,6 +139,7 @@ nav {
       }
     }
   }
+
   @media (max-width: 767px) {
     display: none;
   }
@@ -169,11 +170,26 @@ nav {
 .electronics {
   background-color: $bg;
   padding-top: 30px;
+
   .card-group {
     border-top: 1px solid $lite;
+
     .card-body {
       h5 {
         color: $dark;
+      }
+    }
+
+    .card-text {
+      color: $mar;
+    }
+
+    .spans {
+      display: flex;
+      justify-content: space-between;
+      // color: $mar;
+      &:nth-last-child(1) {
+        color: $mar;
       }
     }
   }
