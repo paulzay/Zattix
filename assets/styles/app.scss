@@ -265,3 +265,35 @@ footer {
     }
   }
 }
+
+// search page
+
+.search {
+  display: flex;
+  justify-content: space-between;
+
+  .sc1 {
+    padding: 0 50px;
+    width: 30%;
+
+    .srch1 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .srch2 {
+      margin-top: 20px;
+
+      h2 {
+        border-bottom: 1px solid $lite;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .sc2 {
+    width: 70%;
+  }
+}

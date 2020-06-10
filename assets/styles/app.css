@@ -9,7 +9,7 @@
 body {
   background-color: #fff;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   color: #888;
   font-family: Helvetica, sans-serif;
   font-size: 16px;
@@ -42,10 +42,9 @@ nav .right {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
-
   nav .my-left button {
     background-color: #d35266;
     border: 0;
@@ -58,7 +57,6 @@ nav .right {
     margin-top: 10px;
     text-transform: uppercase;
   }
-
   nav .right {
     display: none;
   }
@@ -70,15 +68,13 @@ nav .right {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0 20px;
   }
-
   nav .my-left span {
     margin-right: 20px;
   }
-
   nav .right {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -86,14 +82,12 @@ nav .right {
     margin-right: 20px;
     padding-top: 15px;
   }
-
   nav .right a {
     color: #888;
     font-size: 18px;
     line-height: 1em;
     text-transform: uppercase;
   }
-
   nav .right a i {
     margin: 0 10px;
   }
@@ -101,8 +95,8 @@ nav .right {
 
 .hero {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #d35266;
   color: #fff;
   display: -webkit-box;
@@ -110,8 +104,8 @@ nav .right {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -184,8 +178,8 @@ nav .right {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .electronics .title h2 {
@@ -214,8 +208,8 @@ nav .right {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .electronics .card-group .spans:nth-last-child(1) {
@@ -228,8 +222,9 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
   padding: 50px;
 }
 
@@ -238,8 +233,8 @@ footer .foot-left {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 footer .foot-left img {
@@ -274,3 +269,42 @@ footer .foot-left .cats ul li a {
 footer .foot-right img {
   margin-left: 30px;
 }
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search .sc1 {
+  padding: 0 50px;
+  width: 30%;
+}
+
+.search .sc1 .srch1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.search .sc1 .srch2 {
+  margin-top: 20px;
+}
+
+.search .sc1 .srch2 h2 {
+  border-bottom: 1px solid #888;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search .sc2 {
+  width: 70%;
+}
+/*# sourceMappingURL=app.css.map */
