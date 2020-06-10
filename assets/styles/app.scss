@@ -171,6 +171,10 @@ nav {
   background-color: $bg;
   padding-top: 30px;
 
+  h2 {
+    font-size: 24px;
+  }
+
   .card-group {
     border-top: 1px solid $lite;
 
@@ -187,7 +191,7 @@ nav {
     .spans {
       display: flex;
       justify-content: space-between;
-      // color: $mar;
+
       &:nth-last-child(1) {
         color: $mar;
       }
