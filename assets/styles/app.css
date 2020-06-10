@@ -158,7 +158,7 @@ nav .right {
 
 .ads img {
   padding: 20px;
-  width: 200px;
+  width: 100%;
 }
 
 .ads span {
@@ -270,6 +270,10 @@ footer .foot-right img {
   margin-left: 30px;
 }
 
+.searchbg {
+  background-color: #f6f6f6;
+}
+
 .search {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,7 +284,6 @@ footer .foot-right img {
 }
 
 .search .sc1 {
-  padding: 0 50px;
   width: 30%;
 }
 
@@ -306,5 +309,67 @@ footer .foot-right img {
 
 .search .sc2 {
   width: 70%;
+  border-left: 1px solid #888;
+  border-right: 1px solid #888;
+  padding: 20px;
+}
+
+.search .sc2 h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.search .sc2 img {
+  padding: 20px;
+  width: 100%;
+}
+
+.search .sc2 span {
+  background-color: #d35266;
+  color: #fff;
+  margin-right: 1px;
+  padding: 15px;
+}
+
+.search .card {
+  background-color: #f6f6f6;
+}
+
+.search .card:hover {
+  background-color: #fff;
+}
+
+.search .card .cartop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search .card .first {
+  color: #d35266;
+}
+
+.search .card .last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search .card .last button {
+  background-color: #d35266;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.search .card .last button:hover {
+  color: #d35266;
+  background-color: #fff;
 }
 /*# sourceMappingURL=app.css.map */

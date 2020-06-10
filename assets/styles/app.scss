@@ -156,7 +156,7 @@ nav {
 
   img {
     padding: 20px;
-    width: 200px;
+    width: 100%;
   }
 
   span {
@@ -267,13 +267,14 @@ footer {
 }
 
 // search page
-
+.searchbg {
+  background-color: $bg;
+}
 .search {
   display: flex;
   justify-content: space-between;
 
   .sc1 {
-    padding: 0 50px;
     width: 30%;
 
     .srch1 {
@@ -295,5 +296,52 @@ footer {
 
   .sc2 {
     width: 70%;
+
+    border-left: 1px solid $lite;
+    border-right: 1px solid $lite;
+    padding: 20px;
+    h2 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    img {
+      padding: 20px;
+      width: 100%;
+    }
+
+    span {
+      background-color: $mar;
+      color: $w;
+      margin-right: 1px;
+      padding: 15px;
+    }
+  }
+  .card {
+    background-color: $bg;
+    &:hover {
+      background-color: $w;
+    }
+    .cartop {
+      display: flex;
+      justify-content: space-between;
+    }
+    .first {
+      color: $mar;
+    }
+    .last {
+      display: flex;
+      justify-content: space-between;
+      button {
+        background-color: $mar;
+        border: none;
+        border-radius: 3px;
+        color: $w;
+        &:hover {
+          color: $mar;
+          background-color: $w;
+        }
+      }
+    }
   }
 }
