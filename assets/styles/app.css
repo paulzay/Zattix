@@ -9,7 +9,7 @@
 body {
   background-color: #fff;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: #888;
   font-family: Helvetica, sans-serif;
   font-size: 16px;
@@ -42,9 +42,10 @@ nav .right {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
   }
+
   nav .my-left button {
     background-color: #d35266;
     border: 0;
@@ -57,6 +58,7 @@ nav .right {
     margin-top: 10px;
     text-transform: uppercase;
   }
+
   nav .right {
     display: none;
   }
@@ -68,13 +70,15 @@ nav .right {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     padding: 0 20px;
   }
+
   nav .my-left span {
     margin-right: 20px;
   }
+
   nav .right {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -82,12 +86,14 @@ nav .right {
     margin-right: 20px;
     padding-top: 15px;
   }
+
   nav .right a {
     color: #888;
     font-size: 18px;
     line-height: 1em;
     text-transform: uppercase;
   }
+
   nav .right a i {
     margin: 0 10px;
   }
@@ -95,8 +101,8 @@ nav .right {
 
 .hero {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #d35266;
   color: #fff;
   display: -webkit-box;
@@ -104,8 +110,8 @@ nav .right {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -173,8 +179,22 @@ nav .right {
   padding-top: 30px;
 }
 
-.electronics h2 {
+.electronics .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.electronics .title h2 {
   font-size: 24px;
+}
+
+.electronics .title p a {
+  color: #d35266;
+  font-weight: bold;
 }
 
 .electronics .card-group {
@@ -194,11 +214,10 @@ nav .right {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .electronics .card-group .spans:nth-last-child(1) {
   color: #d35266;
 }
-/*# sourceMappingURL=app.css.map */
