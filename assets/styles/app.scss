@@ -210,3 +210,58 @@ nav {
     }
   }
 }
+
+footer {
+  // margin-top: 100px;
+  background-color: $w;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 50px;
+
+  .foot-left {
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+      width: 100%;
+    }
+
+    li {
+      margin-left: 40px;
+
+      .link {
+        color: $dark;
+      }
+
+      &:nth-child(2) {
+        margin-top: 20px;
+      }
+    }
+
+    .cats {
+      h2 {
+        border-bottom: 1px solid $mar;
+        color: $mar;
+        font-size: 16px;
+        margin-left: 80px;
+        text-transform: uppercase;
+      }
+
+      ul {
+        li {
+          a {
+            color: $dark;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .foot-right {
+    img {
+      margin-left: 30px;
+    }
+  }
+}

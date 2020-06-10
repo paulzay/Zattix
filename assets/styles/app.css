@@ -221,3 +221,56 @@ nav .right {
 .electronics .card-group .spans:nth-last-child(1) {
   color: #d35266;
 }
+
+footer {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+footer .foot-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+footer .foot-left img {
+  width: 100%;
+}
+
+footer .foot-left li {
+  margin-left: 40px;
+}
+
+footer .foot-left li .link {
+  color: #383838;
+}
+
+footer .foot-left li:nth-child(2) {
+  margin-top: 20px;
+}
+
+footer .foot-left .cats h2 {
+  border-bottom: 1px solid #d35266;
+  color: #d35266;
+  font-size: 16px;
+  margin-left: 80px;
+  text-transform: uppercase;
+}
+
+footer .foot-left .cats ul li a {
+  color: #383838;
+  font-size: 12px;
+}
+
+footer .foot-right img {
+  margin-left: 30px;
+}
