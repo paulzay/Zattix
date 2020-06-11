@@ -11,7 +11,7 @@ HTML &amp; CSS capstone project: Online shopping platform
 
 ## Live Demo
 
-[Live Demo Link](https://paulzay.github.io/zattix/)
+[Live Demo Link](https://paulzay.github.io/Zattix/)
 
 ## Screenshots
 
