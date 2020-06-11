@@ -188,28 +188,24 @@ nav {
   }
 
   .row {
-    max-width: 100%;
-  }
-
-  .card-group {
     border-top: 1px solid $lite;
+    max-width: 100%;
 
-    .card-body {
-      h5 {
-        color: $dark;
-      }
-    }
+    .card {
+      .card-body {
+        h5 {
+          color: $dark;
+        }
 
-    .card-text {
-      color: $mar;
-    }
+        p {
+          color: $mar;
+        }
 
-    .spans {
-      display: flex;
-      justify-content: space-between;
-
-      &:nth-last-child(1) {
-        color: $mar;
+        .spans {
+          .float-right {
+            color: $mar;
+          }
+        }
       }
     }
   }
@@ -363,7 +359,7 @@ footer {
     }
   }
 
-  .card {
+  .result {
     background-color: $bg;
 
     &:hover {
