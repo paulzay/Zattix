@@ -1,6 +1,6 @@
 # Zattix
 
-HTML &amp; CSS capstone project: Online shop for electronics
+HTML &amp; CSS capstone project: Online shopping platform
 
 ## Built With
 
@@ -14,6 +14,11 @@ HTML &amp; CSS capstone project: Online shop for electronics
 [Live Demo Link](https://paulzay.github.io/zattix/)
 
 ## Screenshots
+
+![Screenshot from 2020-06-11 13-00-33](https://user-images.githubusercontent.com/29974825/84372520-e704d180-abe3-11ea-8f74-12d936c1aeef.png)
+![Screenshot from 2020-06-11 13-00-49](https://user-images.githubusercontent.com/29974825/84372537-eb30ef00-abe3-11ea-9347-27a163c55523.png)
+![Screenshot from 2020-06-11 13-01-07](https://user-images.githubusercontent.com/29974825/84372542-ec621c00-abe3-11ea-9a10-e1989c722e89.png)
+![Screenshot from 2020-06-11 13-01-31](https://user-images.githubusercontent.com/29974825/84372544-ecfab280-abe3-11ea-9592-b9cd5d100218.png)
 
 # Getting Started 🚀
 
