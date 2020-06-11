@@ -216,7 +216,6 @@ nav {
 }
 
 footer {
-  // margin-top: 100px;
   background-color: $w;
   display: flex;
   justify-content: space-between;
@@ -411,6 +410,20 @@ footer {
     .bt1 {
       background-color: $mar;
       color: $w;
+    }
+  }
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+
+    .sc1 {
+      display: none;
+    }
+
+    .sc2 {
+      border: 0;
+      width: 100%;
     }
   }
 }

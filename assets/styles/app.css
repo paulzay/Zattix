@@ -9,7 +9,7 @@
 body {
   background-color: #fff;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: #888;
   font-family: Helvetica, sans-serif;
   font-size: 16px;
@@ -42,9 +42,10 @@ nav .right {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
   }
+
   nav .my-left button {
     background-color: #d35266;
     border: 0;
@@ -57,6 +58,7 @@ nav .right {
     margin-top: 10px;
     text-transform: uppercase;
   }
+
   nav .right {
     display: none;
   }
@@ -68,13 +70,15 @@ nav .right {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     padding: 0 20px;
   }
+
   nav .my-left span {
     margin-right: 20px;
   }
+
   nav .right {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -82,12 +86,14 @@ nav .right {
     margin-right: 20px;
     padding-top: 15px;
   }
+
   nav .right a {
     color: #888;
     font-size: 18px;
     line-height: 1em;
     text-transform: uppercase;
   }
+
   nav .right a i {
     margin: 0 10px;
   }
@@ -95,8 +101,8 @@ nav .right {
 
 .hero {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #d35266;
   color: #fff;
   display: -webkit-box;
@@ -104,8 +110,8 @@ nav .right {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -178,8 +184,8 @@ nav .right {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .electronics .title h2 {
@@ -212,8 +218,8 @@ nav .right {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .electronics .card-group .spans:nth-last-child(1) {
@@ -226,8 +232,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   max-width: 100%;
   padding: 50px;
 }
@@ -237,8 +243,8 @@ footer .foot-left {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 footer .foot-left img {
@@ -278,9 +284,10 @@ footer .foot-right img {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   footer .foot-right img {
     margin-bottom: 30px;
   }
@@ -293,41 +300,48 @@ footer .foot-right img {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   footer .foot-left {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   footer .foot-left img {
     display: none;
   }
+
   footer .foot-left ul {
     -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
   }
+
   footer .foot-left ul li {
     margin-left: 0;
   }
+
   footer .foot-left .cats h2 {
     margin-left: 0;
   }
+
   footer .foot-right {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     margin-top: 20px;
   }
+
   footer .foot-right img {
     margin-left: 0;
     margin-right: 20px;
@@ -344,8 +358,8 @@ footer .foot-right img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .search .sc1 {
@@ -357,8 +371,8 @@ footer .foot-right img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
@@ -404,8 +418,8 @@ footer .foot-right img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .search .card .first {
@@ -417,8 +431,8 @@ footer .foot-right img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .search .card .last .pd {
@@ -438,8 +452,8 @@ footer .foot-right img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .search .bts button {
@@ -452,4 +466,24 @@ footer .foot-right img {
   background-color: #d35266;
   color: #fff;
 }
-/*# sourceMappingURL=app.css.map */
+
+@media (max-width: 500px) {
+  .search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .search .sc1 {
+    display: none;
+  }
+
+  .search .sc2 {
+    border: 0;
+    width: 100%;
+  }
+}
