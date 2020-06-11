@@ -233,10 +233,6 @@ footer {
       .link {
         color: $dark;
       }
-
-      &:nth-child(2) {
-        // margin-top: 20px;
-      }
     }
 
     .cats {
@@ -264,11 +260,53 @@ footer {
     img {
       margin-left: 30px;
     }
+
     @media (max-width: 991px) {
       display: flex;
       flex-direction: column;
+
       img {
         margin-bottom: 30px;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+
+    .foot-left {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        display: none;
+      }
+
+      ul {
+        padding-inline-start: 0;
+
+        li {
+          margin-left: 0;
+        }
+      }
+
+      .cats {
+        h2 {
+          margin-left: 0;
+        }
+      }
+    }
+
+    .foot-right {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+
+      img {
+        margin-left: 0;
+        margin-right: 20px;
+        width: 30px;
       }
     }
   }
