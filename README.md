@@ -1,4 +1,4 @@
-# Diangon Alley™
+# Diagon Alley™
 
 HTML &amp; CSS capstone project: Online shopping platform
 
