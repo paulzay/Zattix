@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zattix</title>
+    <title>Diagon Alley</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
     />
     <link
       rel="stylesheet"
@@ -18,8 +22,12 @@
   </head>
   <body>
     <nav class="sticky-top">
-      <div class="row d-flex no-wrap my-left">
-        <span><img src="./assets/img/logo.png" alt="image" />ZATTIX</span>
+      <div class="d-flex justify-content-between flex-wrap my-left">
+        <span
+          ><img
+            src="https://vignette.wikia.nocookie.net/harrypotter/images/c/ce/Weasleys_Wizard_Wheezes.png/revision/latest/scale-to-width-down/350?cb=20161124001602"
+            alt="image"
+        /></span>
         <span>
           <a href="#"><i class="fa fa-home"></i> Home</a>
         </span>
@@ -30,6 +38,9 @@
           <a href="#"><i class="fa fa-shopping-cart"></i> Purchase list</a>
         </span>
         <span><button>post an ad</button></span>
+        <div class="burger" id="burger">
+          <i class="material-icons menu menu-toggle">menu</i>
+        </div>
       </div>
       <div class="right font-weight-bold">
         <a href="#"><i class="fa fa-envelope-square"></i></a>
@@ -40,8 +51,8 @@
     </nav>
     <main>
       <div class="hero">
-        <h1>Zattix</h1>
-        <p>Buying and Selling couldn't be Simpler than this.</p>
+        <h1>Diagon Alley</h1>
+        <p>One stop online shop for Magical People</p>
         <form class="" action="./UI/search.html" method="GET">
           <select class="ui dropdown">
             <option value="">All Categories</option>
@@ -357,10 +368,13 @@
         </div>
       </div>
     </main>
-    <footer class="container">
+    <footer>
       <div class="foot-left">
         <div>
-          <img src="./assets/img/logolite.png" alt="logo" />
+          <img
+            src="https://vignette.wikia.nocookie.net/harrypotter/images/c/ce/Weasleys_Wizard_Wheezes.png/revision/latest/scale-to-width-down/350?cb=20161124001602"
+            alt="logo"
+          />
         </div>
         <div class="cats">
           <h2>navigation</h2>
@@ -391,6 +405,13 @@
         <img src="./assets/img/icon-instagram.svg" alt="ig" />
       </div>
     </footer>
+    <script>
+      const hum = document.getElementsById("burger");
+      hum.addEventListener("click", function (e) {
+        const xmMenu = document.getElementById("xmMenu");
+        xmMenu.classList.toggle("hide");
+      });
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

@@ -26,10 +26,23 @@ body {
 
 nav {
   background-color: $dark;
-  overflow: hidden;
   width: 100%;
 
   .my-left {
+    img {
+      height: 30px;
+      margin-left: 20px;
+      margin-top: 6px;
+      width: 30px;
+    }
+
+    span:nth-child(n + 2) {
+      display: none;
+    }
+    .burger {
+      margin-top: 10px;
+      margin-right: 20px;
+    }
     button {
       display: none;
     }
@@ -48,7 +61,12 @@ nav {
     .my-left {
       display: flex;
       justify-content: space-evenly;
-
+      span:nth-child(n + 2) {
+        display: flex;
+      }
+      .burger {
+        display: none;
+      }
       button {
         background-color: $mar;
         border: 0;
@@ -59,6 +77,7 @@ nav {
         font-weight: bold;
         line-height: 2em;
         margin-top: 10px;
+        margin-bottom: 10px;
         text-transform: uppercase;
       }
     }
@@ -67,7 +86,13 @@ nav {
       display: none;
     }
   }
-
+  @media (max-width: 523px) {
+    .my-left {
+      button {
+        display: none;
+      }
+    }
+  }
   @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
@@ -104,12 +129,11 @@ nav {
   color: $w;
   display: flex;
   flex-direction: column;
-  // height: 40vh;
   padding-bottom: 30px;
   padding-top: 30px;
 
   h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -122,13 +146,13 @@ nav {
     select {
       background-color: $w;
       border: 0;
-      padding: 17px 10px;
+      padding: 12px 10px;
       width: 25%;
     }
 
     input {
       border: 0;
-      padding: 15px 10px;
+      padding: 10px 10px;
       width: 25%;
 
       &[type="submit"] {
@@ -223,7 +247,7 @@ footer {
     justify-content: space-evenly;
 
     img {
-      width: 100%;
+      width: 70%;
     }
 
     li {
