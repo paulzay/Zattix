@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diagon Alley</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../assets/styles/app.css" />
+  </head>
+  <body class="searchbg">
+    <nav class="sticky-top">
+      <div class="d-flex justify-content-between flex-wrap my-left">
+        <span
+          ><img
+            class="toplogo"
+            src="https://vignette.wikia.nocookie.net/harrypotter/images/c/ce/Weasleys_Wizard_Wheezes.png/revision/latest/scale-to-width-down/350?cb=20161124001602"
+            alt="logo"
+        /></span>
+        <span>
+          <a href="#"><i class="fa fa-home"></i> Home</a>
+        </span>
+        <span>
+          <a href="#"><i class="fa fa-archive"></i> Collections</a>
+        </span>
+        <span>
+          <a href="#"><i class="fa fa-shopping-cart"></i> Purchase list</a>
+        </span>
+        <span><button>post an ad</button></span>
+        <div class="burger" id="burger">
+          <i class="material-icons menu menu-toggle">menu</i>
+        </div>
+      </div>
+      <div class="right font-weight-bold">
+        <a href="#"><i class="fa fa-envelope-square"></i></a>
+        <span
+          ><a href="#"><i class="fa fa-user-circle"></i>User</a></span
+        >
+      </div>
+    </nav>
+    <main>
+      <div class="hero">
+        <h1>Diagon Alley</h1>
+        <p>One stop online shop for Magical People</p>
+        <form class="" action="./UI/search.html" method="GET">
+          <select class="ui dropdown">
+            <option value="">All Categories</option>
+            <option value="2">Stationery</option>
+            <option value="1">Wands</option>
+            <option value="0">Cauldrons</option>
+          </select>
+          <input type="text" placeholder="What are you looking for?" />
+          <input type="text" placeholder="Location" />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
+      <div class="search container">
+        <div class="sc1 container">
+          <div class="srch1">
+            <span><input type="checkbox" class="m-auto" /> New</span>
+            <span><input type="checkbox" class="m-auto" /> Second Hand</span>
+          </div>
+          <div class="srch2">
+            <h2>Core</h2>
+            <div class="">
+              <ul class="p-0">
+                <li>
+                  <input type="checkbox" class="m-auto" /> Dragon Heartstring
+                </li>
+                <li><input type="checkbox" class="m-auto" /> Unicorn Hair</li>
+                <li>
+                  <input type="checkbox" class="m-auto" /> Phoenix Feather
+                </li>
+                <li><input type="checkbox" class="m-auto" /> Basilisk Horn</li>
+              </ul>
+            </div>
+          </div>
+          <div class="srch2">
+            <h2>Wood</h2>
+            <div class="d-block">
+              <ul class="p-0">
+                <li><input type="checkbox" class="m-auto" /> Ash</li>
+                <li><input type="checkbox" class="m-auto" /> Acacia</li>
+                <li><input type="checkbox" class="m-auto" /> Beech</li>
+                <li><input type="checkbox" class="m-auto" /> Cypress</li>
+              </ul>
+            </div>
+          </div>
+          <div class="srch2">
+            <h2>Length</h2>
+            <div class="d-block">
+              <ul class="p-0">
+                <li><input type="checkbox" class="m-auto" /> Short</li>
+                <li><input type="checkbox" class="m-auto" /> Medium</li>
+                <li><input type="checkbox" class="m-auto" /> Long</li>
+              </ul>
+            </div>
+          </div>
+          <div class="srch2">
+            <h2>Flexibility</h2>
+            <div class="">
+              <ul class="p-0">
+                <li><input type="checkbox" class="m-auto" /> Quite Bendy</li>
+                <li><input type="checkbox" class="m-auto" /> Swishy</li>
+                <li><input type="checkbox" class="m-auto" /> Supple</li>
+                <li><input type="checkbox" class="m-auto" /> Pliant</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sc2 container">
+          <p class="title">
+            <strong>67</strong> results for <strong>"Wands"</strong> search at
+            <strong>Hogsmeade</strong>
+          </p>
+          <div class="card mb-3 align-items-center result">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwand_1_360x.jpg?v=1575933194"
+                  alt="First slide"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="cartop">
+                    <h5 class="card-title">
+                      Harry Potter Collectible Wand
+                    </h5>
+                    <i class="fa fa-plus-square"></i>
+                  </div>
+                  <p class="first">New</p>
+                  <p class="card-text">
+                    Half-giant jinxes peg-leg gillywater broken glasses large
+                    black dog Great Hall. Nearly-Headless Nick now string them
+                    together, and answer me this, which creature would you be
+                    unwilling to kiss? Poltergeist
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">By John Doe</small>
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Location: Narnia</small>
+                  </p>
+                  <div class="last">
+                    <span class="la">450$</span
+                    ><button class="pd">Purchase Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 align-items-center result">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwandd_f6fdff10-533c-4341-a579-ddaed391f000_540x.jpg?v=1575933194"
+                  alt="First slide"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="cartop">
+                    <h5 class="card-title">
+                      Dumbledore's Wand
+                    </h5>
+                    <i class="fa fa-plus-square"></i>
+                  </div>
+                  <p class="first">New</p>
+                  <p class="card-text">
+                    Half-giant jinxes peg-leg gillywater broken glasses large
+                    black dog Great Hall. Nearly-Headless Nick now string them
+                    together, and answer me this, which creature would you be
+                    unwilling to kiss? Poltergeist
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">By John Doe</small>
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Location: Narnia</small>
+                  </p>
+                  <div class="last">
+                    <span class="la">450$</span
+                    ><button class="pd">Purchase Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 align-items-center result">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwandlun_360903f4-7d66-4ec2-ab4d-872a8f0a285e_360x.jpg?v=1575933195"
+                  alt="First slide"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="cartop">
+                    <h5 class="card-title">
+                      Death Eater Wand (Brown)
+                    </h5>
+                    <i class="fa fa-plus-square"></i>
+                  </div>
+                  <p class="first">New</p>
+                  <p class="card-text">
+                    Half-giant jinxes peg-leg gillywater broken glasses large
+                    black dog Great Hall. Nearly-Headless Nick now string them
+                    together, and answer me this, which creature would you be
+                    unwilling to kiss? Poltergeist
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">By John Doe</small>
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Location: Narnia</small>
+                  </p>
+                  <div class="last">
+                    <span class="la">450$</span
+                    ><button class="pd">Purchase Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 align-items-center result">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwandde2_1024x1024@2x.jpg?v=1575933194"
+                  alt="First slide"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="cartop">
+                    <h5 class="card-title">
+                      Bellatrix Lestrange's Wand
+                    </h5>
+                    <i class="fa fa-plus-square"></i>
+                  </div>
+                  <p class="first">New</p>
+                  <p class="card-text">
+                    Half-giant jinxes peg-leg gillywater broken glasses large
+                    black dog Great Hall. Nearly-Headless Nick now string them
+                    together, and answer me this, which creature would you be
+                    unwilling to kiss? Poltergeist
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">By John Doe</small>
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Location: Narnia</small>
+                  </p>
+                  <div class="last">
+                    <span class="la">450$</span
+                    ><button class="pd">Purchase Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 align-items-center result">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwandbel2_1024x1024@2x.jpg?v=1575933194"
+                  alt="First slide"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <div class="cartop">
+                    <h5 class="card-title">
+                      Hermione Granger's Wand
+                    </h5>
+                    <i class="fa fa-plus-square"></i>
+                  </div>
+                  <p class="first">New</p>
+                  <p class="card-text">
+                    Half-giant jinxes peg-leg gillywater broken glasses large
+                    black dog Great Hall. Nearly-Headless Nick now string them
+                    together, and answer me this, which creature would you be
+                    unwilling to kiss? Poltergeist
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">By John Doe</small>
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Location: Narnia</small>
+                  </p>
+                  <div class="last">
+                    <span class="la">450$</span
+                    ><button class="pd">Purchase Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bts">
+            <button class="bt1">1</button><button>2</button><button>3</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="foot-left">
+        <div>
+          <img
+            src="https://vignette.wikia.nocookie.net/harrypotter/images/c/ce/Weasleys_Wizard_Wheezes.png/revision/latest/scale-to-width-down/350?cb=20161124001602"
+            alt="logo"
+          />
+        </div>
+        <div class="cats">
+          <h2>navigation</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">T & C</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+        <div class="cats">
+          <h2>Categories</h2>
+          <ul>
+            <li><a href="#">BOOKS & MOVIES</a></li>
+            <li><a href="#">WANDS & COLLECTIBLES</a></li>
+            <li><a href="#">CLOTHING</a></li>
+            <li><a href="#">TOYS & COSTUMES</a></li>
+            <li><a href="#">ACESSORIES</a></li>
+            <li><a href="#">HOME DECOR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-right">
+        <img src="../assets/img/icon-facebook.svg" alt="fb" />
+        <img src="../assets/img/icon-twitter.svg" alt="twt" />
+        <img src="../assets/img/icon-instagram.svg" alt="ig" />
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

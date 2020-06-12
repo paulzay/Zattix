@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diagon Alley</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles/app.css" />
+  </head>
+  <body>
+    <nav class="sticky-top">
+      <div class="d-flex justify-content-between flex-wrap my-left">
+        <span
+          ><img
+            class="toplogo"
+            src="https://vignette.wikia.nocookie.net/harrypotter/images/c/ce/Weasleys_Wizard_Wheezes.png/revision/latest/scale-to-width-down/350?cb=20161124001602"
+            alt="image"
+        /></span>
+        <span>
+          <a href="#"><i class="fa fa-home"></i> Home</a>
+        </span>
+        <span>
+          <a href="#"><i class="fa fa-archive"></i> Collections</a>
+        </span>
+        <span>
+          <a href="#"><i class="fa fa-shopping-cart"></i> Purchase list</a>
+        </span>
+        <span><button>post an ad</button></span>
+        <div class="burger" id="burger">
+          <i class="material-icons menu menu-toggle">menu</i>
+        </div>
+      </div>
+      <div class="right font-weight-bold">
+        <a href="#"><i class="fa fa-envelope-square"></i></a>
+        <span
+          ><a href="#"><i class="fa fa-user-circle"></i>User</a></span
+        >
+      </div>
+    </nav>
+    <main>
+      <div class="hero">
+        <h1>Diagon Alley</h1>
+        <p>One stop online shop for Magical People</p>
+        <form class="" action="./UI/search.html" method="GET">
+          <select class="ui dropdown">
+            <option value="">All Categories</option>
+            <option value="2">Stationery</option>
+            <option value="1">Wands</option>
+            <option value="0">Cauldrons</option>
+          </select>
+          <input type="text" placeholder="What are you looking for?" />
+          <input type="text" placeholder="Location" />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
+
+      <div class="ads container">
+        <h2>Hot Ads</h2>
+        <div class="card mb-3 align-items-center border-0">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img
+                src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpbdbp11_1024x1024@2x.jpg?v=1575933160"
+                alt="First slide"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Harry Potter Hogwarts Crest Allover Print Backpack
+                </h5>
+                <p class="card-text">
+                  Half-giant jinxes peg-leg gillywater broken glasses large
+                  black dog Great Hall. Nearly-Headless Nick now string them
+                  together, and answer me this, which creature would you be
+                  unwilling to kiss? Poltergeist
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">By John Doe</small>
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Location: Narnia</small>
+                </p>
+                <span class="spa">450$</span
+                ><span class="spa">Purchase DEtails</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="electronics">
+        <div class="title container">
+          <h2 class="text-uppercase">wands & collectibles</h2>
+          <p><a href="#">View All</a></p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwand_1_360x.jpg?v=1575933194"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lovegood's Wand</h5>
+              <p class="card-text new">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: U.S</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwandlun_360903f4-7d66-4ec2-ab4d-872a8f0a285e_360x.jpg?v=1575933195"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Harry Potter's Wand</h5>
+              <p class="card-text new">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: U.S</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwandhr_d9ad403a-3bdf-45fe-b53e-b35e2cf2661a_1024x1024@2x.jpg?v=1575933195"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hermione Granger's Wand</h5>
+              <p class="card-text new">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: U.S</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwandd_f6fdff10-533c-4341-a579-ddaed391f000_540x.jpg?v=1575933194"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dumbledore's Wand</h5>
+              <p class="card-text new">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: U.S</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="electronics">
+        <div class="title container">
+          <h2 class="text-uppercase">fashion accessories</h2>
+          <p><a href="#">View All</a></p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbtime_ff04566f-9e4f-4bcd-8b8f-5fea032f7e78_360x.jpg?v=1575933193"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Hermione Granger™ Time-Turner™
+              </h5>
+              <p class="card-text new">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: U.S</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnb7374_1_1024x1024@2x.jpg?v=1575933188"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hogwarts Pin Set Harry Potter GRSH</h5>
+              <p class="card-text">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: Argentina</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnbwtch03_1_e893de6c-1b92-415c-af30-5e0d98ac71aa_360x.jpg?v=1575933196"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hermione Granger™ Time-Turner™</h5>
+              <p class="card-text">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: Japan</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnblunaneck_9ee0dc09-7371-4c79-91bf-4ed6edbcbb9d_1024x1024@2x.jpg?v=1575933191"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Xenophilius Lovegood Necklace</h5>
+              <p class="card-text">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: Swiss</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="electronics">
+        <div class="title container">
+          <h2 class="text-uppercase">home decor</h2>
+          <p><a href="#">View All</a></p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpnwgrythr_540x.jpg?v=1575933197"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gryffindor Crest Tapestry Throw</h5>
+              <p class="card-text new">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: U.S</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpmnmug04_467865d7-9247-4666-b873-259d6234f466_1024x1024@2x.jpg?v=1575933187"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gryffindor Crest Ceramic Mug</h5>
+              <p class="card-text">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: Argentina</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpmnmug01_1024x1024@2x.jpg?v=1575933187"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ceramic Hedwig Mug</h5>
+              <p class="card-text">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: Japan</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md-2 col-sm-4 col-xs-12 m-2 border-0">
+            <img
+              class="card-img-top"
+              src="https://cdn.shopify.com/s/files/1/2597/5112/products/hpmnmug03_1024x1024@2x.jpg?v=1575933187"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cauldron Soup Mug with Spoon</h5>
+              <p class="card-text">New</p>
+              <p class="card-text">
+                <small class="text-muted">From: Swiss</small>
+              </p>
+              <div class="spans">
+                <span class="float-left"
+                  ><i class="fa fa-plus-square"></i
+                ></span>
+                <span class="float-right">200$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="foot-left">
+        <div>
+          <img
+            src="https://vignette.wikia.nocookie.net/harrypotter/images/c/ce/Weasleys_Wizard_Wheezes.png/revision/latest/scale-to-width-down/350?cb=20161124001602"
+            alt="logo"
+          />
+        </div>
+        <div class="cats">
+          <h2>navigation</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">T & C</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+        <div class="cats">
+          <h2>Categories</h2>
+          <ul>
+            <li><a href="#">BOOKS & MOVIES</a></li>
+            <li><a href="#">WANDS & COLLECTIBLES</a></li>
+            <li><a href="#">CLOTHING</a></li>
+            <li><a href="#">TOYS & COSTUMES</a></li>
+            <li><a href="#">ACESSORIES</a></li>
+            <li><a href="#">HOME DECOR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-right">
+        <img src="./assets/img/icon-facebook.svg" alt="fb" />
+        <img src="./assets/img/icon-twitter.svg" alt="twt" />
+        <img src="./assets/img/icon-instagram.svg" alt="ig" />
+      </div>
+    </footer>
+    <script>
+      const hum = document.getElementsById("burger");
+      hum.addEventListener("click", function (e) {
+        const xmMenu = document.getElementById("xmMenu");
+        xmMenu.classList.toggle("hide");
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

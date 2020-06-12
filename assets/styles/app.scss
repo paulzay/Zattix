@@ -1,0 +1,456 @@
+// Variables
+
+$mar: #d35266;
+$dark: #383838;
+$lite: #888;
+$bg: #f6f6f6;
+$w: #fff;
+
+* a {
+  text-decoration: none;
+}
+
+* li {
+  list-style: none;
+}
+
+body {
+  background-color: $w;
+  box-sizing: border-box;
+  color: $lite;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: $dark;
+  width: 100%;
+
+  .my-left {
+    .toplogo {
+      height: 30px;
+      margin-left: 20px;
+      margin-top: 6px;
+      width: 30px;
+    }
+
+    span:nth-child(n + 2) {
+      display: none;
+    }
+
+    .burger {
+      margin-top: 10px;
+      margin-right: 20px;
+    }
+
+    button {
+      display: none;
+    }
+
+    a {
+      color: $lite;
+      line-height: 3em;
+    }
+  }
+
+  .right {
+    display: none;
+  }
+
+  @media (min-width: 376px) {
+    .my-left {
+      display: flex;
+      justify-content: space-evenly;
+
+      span:nth-child(n + 2) {
+        display: flex;
+      }
+
+      .burger {
+        display: none;
+      }
+
+      button {
+        background-color: $mar;
+        border: 0;
+        border-radius: 3px;
+        color: $w;
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+    }
+
+    .right {
+      display: none;
+    }
+  }
+
+  @media (max-width: 523px) {
+    .my-left {
+      button {
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    .my-left {
+      span {
+        margin-right: 20px;
+      }
+    }
+
+    .right {
+      display: inline-flex;
+      margin-right: 20px;
+      padding-top: 15px;
+
+      a {
+        color: $lite;
+        font-size: 18px;
+        line-height: 1em;
+        text-transform: uppercase;
+
+        i {
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  align-items: center;
+  background-color: $mar;
+  color: $w;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  form {
+    select {
+      background-color: $w;
+      border: 0;
+      padding: 12px 10px;
+      width: 25%;
+    }
+
+    input {
+      border: 0;
+      padding: 10px 10px;
+      width: 25%;
+
+      &[type="submit"] {
+        background-color: $dark;
+        color: $w;
+        margin-left: 10px;
+        width: 15%;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.ads {
+  background-color: $w;
+  padding: 30px 0;
+
+  h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  img {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .spa {
+    background-color: $mar;
+    color: $w;
+    margin-right: 1px;
+    padding: 15px;
+  }
+}
+
+.electronics {
+  background-color: $bg;
+  padding-top: 30px;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      a {
+        color: $mar;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .row {
+    border-top: 1px solid $lite;
+    max-width: 100%;
+
+    .card {
+      .card-body {
+        h5 {
+          color: $dark;
+        }
+
+        p {
+          color: $mar;
+        }
+
+        .spans {
+          .float-right {
+            color: $mar;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $w;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 50px;
+
+  .foot-left {
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+      width: 70%;
+    }
+
+    li {
+      margin-left: 40px;
+
+      .link {
+        color: $dark;
+      }
+    }
+
+    .cats {
+      h2 {
+        border-bottom: 1px solid $mar;
+        color: $mar;
+        font-size: 16px;
+        margin-left: 80px;
+        text-transform: uppercase;
+      }
+
+      ul {
+        li {
+          a {
+            color: $dark;
+            font-size: 12px;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  .foot-right {
+    img {
+      margin-left: 30px;
+    }
+
+    @media (max-width: 991px) {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+
+    .foot-left {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        display: none;
+      }
+
+      ul {
+        padding-inline-start: 0;
+
+        li {
+          margin-left: 0;
+        }
+      }
+
+      .cats {
+        h2 {
+          margin-left: 0;
+        }
+      }
+    }
+
+    .foot-right {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+
+      img {
+        margin-left: 0;
+        margin-right: 20px;
+        width: 30px;
+      }
+    }
+  }
+}
+
+// search page
+.searchbg {
+  background-color: $bg;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+
+  .sc1 {
+    width: 30%;
+
+    .srch1 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .srch2 {
+      margin-top: 20px;
+
+      h2 {
+        border-bottom: 1px solid $lite;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .sc2 {
+    border-left: 1px solid $lite;
+    border-right: 1px solid $lite;
+    padding: 20px;
+    width: 70%;
+
+    img {
+      padding: 20px;
+      width: 100%;
+    }
+
+    .la {
+      background-color: $mar;
+      color: $w;
+      margin-right: 1px;
+      padding: 15px;
+    }
+  }
+
+  .result {
+    background-color: $bg;
+
+    &:hover {
+      background-color: $w;
+    }
+
+    .cartop {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .first {
+      color: $mar;
+    }
+
+    .last {
+      display: flex;
+      justify-content: space-between;
+
+      .pd {
+        background-color: $mar;
+        border: 0;
+        border-radius: 3px;
+        color: $w;
+
+        &:hover {
+          background-color: $w;
+          color: $mar;
+        }
+      }
+    }
+  }
+
+  .bts {
+    display: flex;
+    justify-content: center;
+
+    button {
+      background-color: $w;
+      border: 0;
+      margin: 5px;
+    }
+
+    .bt1 {
+      background-color: $mar;
+      color: $w;
+    }
+  }
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+
+    .sc1 {
+      display: none;
+    }
+
+    .sc2 {
+      border: 0;
+      width: 100%;
+    }
+  }
+}
