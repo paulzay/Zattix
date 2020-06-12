@@ -25,7 +25,7 @@ The website is fully responsive across mobile, tablet and desktop devices by uti
 
 The icons used are from Fontawesome and Material Icons.
 
-Working on the product category sections was the most tasking part of the project because of how the products are supposed to display on different screen sizes. It was also the most fun as I got to use Bootstrap in a way I hadn't before. That is my favourite feature of the project.
+Working on the product category sections was the most tasking part of the project because of how the products are supposed to display on different screen sizes. It was also the most fun as I got to use Bootstrap in a way I hadn't before. That is my favourite feature of the project. Additionally, getting to use Harry Potter as my platform's theme made the project ten times more fun to work on, based on my love for the wizarding world.
 
 ## Project Requirements
 
