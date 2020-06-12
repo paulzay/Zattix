@@ -29,7 +29,7 @@ nav {
   width: 100%;
 
   .my-left {
-    img {
+    .toplogo {
       height: 30px;
       margin-left: 20px;
       margin-top: 6px;
@@ -39,10 +39,12 @@ nav {
     span:nth-child(n + 2) {
       display: none;
     }
+
     .burger {
       margin-top: 10px;
       margin-right: 20px;
     }
+
     button {
       display: none;
     }
@@ -61,12 +63,15 @@ nav {
     .my-left {
       display: flex;
       justify-content: space-evenly;
+
       span:nth-child(n + 2) {
         display: flex;
       }
+
       .burger {
         display: none;
       }
+
       button {
         background-color: $mar;
         border: 0;
@@ -86,6 +91,7 @@ nav {
       display: none;
     }
   }
+
   @media (max-width: 523px) {
     .my-left {
       button {
@@ -93,6 +99,7 @@ nav {
       }
     }
   }
+
   @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
@@ -183,7 +190,7 @@ nav {
     width: 100%;
   }
 
-  span {
+  .spa {
     background-color: $mar;
     color: $w;
     margin-right: 1px;
@@ -375,7 +382,7 @@ footer {
       width: 100%;
     }
 
-    span {
+    .la {
       background-color: $mar;
       color: $w;
       margin-right: 1px;
