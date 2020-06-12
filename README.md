@@ -51,7 +51,7 @@ Follow the guidelines of the given design, including:
 
 ![Screenshot from 2020-06-12 12-55-28](https://user-images.githubusercontent.com/29974825/84490793-58a85280-acac-11ea-9b23-a4f173602010.png)
 ![Screenshot from 2020-06-12 12-55-49](https://user-images.githubusercontent.com/29974825/84490802-5b0aac80-acac-11ea-8cf5-fa28d47ebe53.png)
-![Screenshot from 2020-06-12 12-56-11](https://user-images.githubusercontent.com/29974825/84490804-5ba34300-acac-11ea-9884-010093c57335.png)
+
 ![Screenshot from 2020-06-12 12-56-45](https://user-images.githubusercontent.com/29974825/84490806-5cd47000-acac-11ea-95d9-966f3dff40dc.png)
 ![Screenshot from 2020-06-12 12-57-18](https://user-images.githubusercontent.com/29974825/84490813-5e059d00-acac-11ea-9819-3970159bfb6e.png)
 ![Screenshot from 2020-06-12 12-57-39](https://user-images.githubusercontent.com/29974825/84490821-5e9e3380-acac-11ea-8efc-024abe193b38.png)
