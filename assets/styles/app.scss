@@ -41,8 +41,8 @@ nav {
     }
 
     .burger {
-      margin-top: 10px;
       margin-right: 20px;
+      margin-top: 10px;
     }
 
     button {
@@ -173,6 +173,16 @@ nav {
 
   @media (max-width: 767px) {
     display: none;
+  }
+}
+
+.lefts,
+.rights {
+  color: $mar;
+
+  .material-icons {
+    font-size: 40px;
+    font-weight: bold;
   }
 }
 

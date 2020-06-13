@@ -34,8 +34,8 @@ nav .my-left span:nth-child(n + 2) {
 }
 
 nav .my-left .burger {
-  margin-top: 10px;
   margin-right: 20px;
+  margin-top: 10px;
 }
 
 nav .my-left button {
@@ -182,6 +182,17 @@ nav .right {
   .hero {
     display: none;
   }
+}
+
+.lefts,
+.rights {
+  color: #d35266;
+}
+
+.lefts .material-icons,
+.rights .material-icons {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .ads {
