@@ -1,4 +1,4 @@
-# Diangon Alley™
+# Diagon Alley™
 
 HTML &amp; CSS capstone project: Online shopping platform
 
@@ -15,7 +15,7 @@ HTML &amp; CSS capstone project: Online shopping platform
 
 ## Project Description
 
-Diangon Alley™ is an online shopping platform for everything you can think of for the wizarding world and you can
+Diagon Alley™ is an online shopping platform for everything you can think of for the wizarding world and you can
 get it all from the comfort of your home.
 The project is inspired by Diagon Alley in Harry Potter for those of you who are muggles.
 
